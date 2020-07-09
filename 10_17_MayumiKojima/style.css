@@ -1,0 +1,118 @@
+/* 各ファイル共通 */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
+html {
+  font-family: "Comfortaa", cursive;
+  line-height: 1.5;
+}
+
+.wrap {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  color: #fff;
+  margin: 30px, 0px;
+  height: 450px;
+  background-color: #3f6473;
+  background-image: url(img/filmbg2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.htitle {
+  padding: 20px 20px;
+}
+
+#images {
+  padding: 0;
+}
+
+#texts {
+  width: 450px;
+  padding: 0 0 0 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding-bottom: 12px;
+  color: #3a403e;
+}
+
+a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #bf214b;
+}
+
+#submit_button {
+  width: 150px;
+  height: 50px;
+  background-color: #a3d9d3;
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* index.php */
+input {
+  margin: 5px 10px;
+  height: 30px;
+  font-family: "Comfortaa", cursive;
+}
+
+.alteration {
+  border-style: dotted;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+select {
+  margin: 5px 10px;
+  height: 30px;
+}
+
+#tmdbsearch {
+  padding-left: 10px;
+  margin-top: 20px;
+  background-color: #407364;
+  color: #fff;
+}
+
+#result li {
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+/* select.php */
+
+h2 {
+  color: #5e2c99;
+}
+.low {
+  margin-top: 50px;
+}
+
+/* login.php */
+.login {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
